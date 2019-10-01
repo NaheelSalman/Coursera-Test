@@ -1,0 +1,185 @@
+﻿body {
+    background-color:black;
+    color:white;
+    width:100%;
+}
+* { 
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+h1{
+    text-align:center;
+    margin-bottom:5%;
+    font-size:44px;
+}
+h2{
+   position:relative;
+   left: 70%;
+   padding-right: 20px;
+   padding-left: 20px;
+   width: 30%;
+   font-size:28px;
+   margin-top:0px;
+   margin-bottom: 10px;
+   /*border: 3px solid white;*/
+}
+#h2-box1{
+background-color: #9C640C;
+}
+
+
+#h2-box2{
+background-color: #666600;
+}
+
+#h2-box3{
+background-color: #C70039;
+}
+
+Simple Responsive FrameWork
+.row{
+    width: 100%;
+}
+/*-----------Desktop Version---------*/
+@media (min-width: 992px)
+{
+    #dvleft,#dvcentre,#dvright{
+        float: left;
+        margin-left: 20px;
+    }
+    #dvleft{
+        width: 33%;
+        height: 210px;
+    }
+    #dvcentre{
+     width: 30%;
+        height: 210px;   
+    }
+    #dvright{
+        width: 30%;
+           height: 210px;
+    }
+}
+/*========For Tablet Version===========*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #dvleft,#dvcentre,#dvright{
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+    }
+    #dvleft{
+        width: 45%;
+        height: 180px;
+    }
+    #dvcentre{
+     width: 45%;
+    height: 180px;   
+    }
+    #dvright{
+        width: 93%;
+       height: 180px;
+    }
+}
+/*===============for Mobile Version=========*/
+@media (min-width: 0px) and (max-width: 767px)
+{
+    #dvleft,#dvcentre,#dvright{
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+    }
+    #dvleft{
+        width: 90%;
+        height: 160px;
+    }
+    #dvcentre{
+     width: 90%;
+     height: 160px;   
+    }
+    #dvright{
+        width: 90%;
+        height: 160px;
+    }
+}
+
+/*
+header {
+margin-left:20px;
+width:auto;
+}
+header ol {
+    float:right;
+  
+}
+    header ol > li >a {
+        float:left;
+        margin-right:100px;
+       
+    }
+ol > li {
+    float:left  ;
+    margin:10px 0px 0px 20px;
+    text-align:left;
+    padding-left:10px;
+    text-decoration:none;
+    margin-bottom:5%;
+    list-style:none;
+    position:relative;
+    right:100px;
+    }
+
+
+nav a{
+    font-size:30px;
+    font-family:'Times New Roman';
+    text-decoration-style:solid;
+    display:inline-block;
+    color:lightgreen;
+        
+}
+header ol > li :hover{
+    color:lightseagreen;
+    display:block;
+    text-transform:uppercase;
+    font-size:32px;
+}*/
+/*.dvtop {
+width:72%;
+height:30px;
+background-color:greenyellow;
+float:left;
+margin-left:8%;
+margin-top:auto;
+}*/
+
+#dvleft {
+clear:left;
+background-color:none;
+border:2px solid greenyellow;
+background-color: gray;
+/*margin:0% 8% 5% 8%;*/
+}
+
+#dvcentre {
+background-color:none;
+border:2px solid greenyellow;
+/*background-color: green;*/
+background-color: #003300;
+}
+#dvright {
+background-color:none;
+border:2px solid greenyellow;
+background-color: gray;
+/*margin:0% 8% 0% 8%;*/
+
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
