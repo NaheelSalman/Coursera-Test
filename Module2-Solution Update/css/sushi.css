@@ -94,15 +94,15 @@ Simple Responsive FrameWork
     }
     #dvleft{
         width: 90%;
-        height: 160px;
+        /*height: 160px;*/
     }
     #dvcentre{
      width: 90%;
-     height: 160px;   
+     /*height: 160px;   */
     }
     #dvright{
         width: 90%;
-        height: 160px;
+        /*height: 160px;*/
     }
 }
 
